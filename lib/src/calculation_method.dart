@@ -131,7 +131,7 @@ extension CalculationMethodExtensions on CalculationMethod {
           return CalculationParameters(
                   fajrAngle: 18.0, ishaAngle: 17.0, method: this)
               .withMethodAdjustments(PrayerAdjustments(
-                  fajr: 0, sunrise: -7, dhuhr: 5, asr: 4, maghrib: 7, isha: 0));
+                  fajr: 0, sunrise: -7, dhuhr: 5, asr: 6, maghrib: 8, isha: 1));
         }
       case CalculationMethod.tehran:
         {
